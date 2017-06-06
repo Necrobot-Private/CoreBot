@@ -5,6 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <COMReference Include="{bee4bfec-6683-3e67-9167-3c0cbc68f40a}">
+      <Guid>bee4bfec-6683-3e67-9167-3c0cbc68f40a</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="GeoCoordinate.NetStandard1" Version="1.0.1" />
     <PackageReference Include="Google.Protobuf" Version="3.3.0" />
     <PackageReference Include="Google.Protobuf.Tools" Version="3.3.0" />
@@ -23,12 +32,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\POGOProtos\POGOProtos.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="System">
-      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
 </Project>
