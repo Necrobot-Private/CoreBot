@@ -46,6 +46,7 @@
     <PackageReference Include="Remotion.Linq" Version="2.1.1" />
     <PackageReference Include="S2Geometry" Version="1.0.3" />
     <PackageReference Include="sqlite" Version="3.13.0" />
+    <PackageReference Include="System.Net.Http" Version="4.3.2" />
     <PackageReference Include="System.Net.Primitives" Version="4.3.0" />
     <PackageReference Include="System.Net.Requests" Version="4.3.0" />
     <PackageReference Include="Telegram.Bot" Version="10.4.0" />
