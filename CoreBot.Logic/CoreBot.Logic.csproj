@@ -26,6 +26,7 @@
     <PackageReference Include="GPSOAuthSharp.NetStandard1" Version="1.0.1" />
     <PackageReference Include="log4net" Version="2.0.8" />
     <PackageReference Include="Markdig" Version="0.12.1" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.3.0" />
     <PackageReference Include="Microsoft.Data.SQLite" Version="1.1.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="1.1.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="1.1.2" />
@@ -45,6 +46,8 @@
     <PackageReference Include="Remotion.Linq" Version="2.1.1" />
     <PackageReference Include="S2Geometry" Version="1.0.3" />
     <PackageReference Include="sqlite" Version="3.13.0" />
+    <PackageReference Include="System.Net.Primitives" Version="4.3.0" />
+    <PackageReference Include="System.Net.Requests" Version="4.3.0" />
     <PackageReference Include="Telegram.Bot" Version="10.4.0" />
     <PackageReference Include="TinyIoC" Version="1.3.0" />
   </ItemGroup>

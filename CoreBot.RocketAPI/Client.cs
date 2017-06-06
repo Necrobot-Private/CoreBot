@@ -176,10 +176,11 @@ namespace PokemonGo.RocketAPI
             if (!Settings.UseProxy) return null;
 
             var uri = $"http://{Settings.UseProxyHost}:{Settings.UseProxyPort}";
-            var prox = new WebProxy(new Uri(uri), false, null);
+            var prox = new WebProxy(uri, false, null);
 
             if (Settings.UseProxyAuthentication)
-                prox.Credentials = new NetworkCredential(Settings.UseProxyUsername, Settings.UseProxyPassword);
+                // ReSharper disable once RedundantNameQualifier
+                prox.Credentials = new NetworkCredential(Settings.UseProxyUsername, password: Settings.UseProxyPassword);
 
             return prox;
         }
