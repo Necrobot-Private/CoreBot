@@ -9,6 +9,8 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="microsoft.aspnet.webapi.client" Version="5.2.3" />
+    <PackageReference Include="Microsoft.Bcl" Version="1.1.10" />
+    <PackageReference Include="Microsoft.Bcl.Build" Version="1.0.21" />
     <PackageReference Include="system.runtime.serialization.xml" Version="4.3.0" />
     <PackageReference Include="system.xml.xmlserializer" Version="4.3.*" />
   </ItemGroup>
@@ -41,11 +43,5 @@
 
   <ItemGroup>
     <ProjectReference Include="..\POGOProtos\POGOProtos.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="System">
-      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.dll</HintPath>
-    </Reference>
   </ItemGroup>
 </Project>
