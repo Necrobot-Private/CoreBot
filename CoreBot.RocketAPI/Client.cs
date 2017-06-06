@@ -1,6 +1,7 @@
 ﻿#region using directives
 
 using System;
+using System.Net;
 using PokemonGo.RocketAPI.Enums;
 using PokemonGo.RocketAPI.Extensions;
 using PokemonGo.RocketAPI.HttpClient;
