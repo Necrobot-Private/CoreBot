@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <PackageReference Include="CloudFlareUtilities.NETStandard" Version="0.3.3.1" />
+    <PackageReference Include="GeoCoordinate" Version="2.0.1" />
     <PackageReference Include="GeoCoordinate.NetStandard1" Version="1.0.1" />
     <PackageReference Include="Google.Api.CommonProtos" Version="1.1.0" />
     <PackageReference Include="Google.Api.Gax" Version="1.0.1" />
